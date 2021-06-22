@@ -14,12 +14,6 @@ pipeline {
       }
     }
 
-    stage('') {
-      steps {
-        sh 'echo "deploy"'
-      }
-    }
-
     stage('test') {
       steps {
         sh 'echo "test url"'
